@@ -8,7 +8,7 @@ WORKDIR '/app'
 # Step 2: Download and install dependency
 COPY package.json .
 RUN npm install
-COPY ./ ./
+COPY . .
 
 # Default command
 # Step 3: Tell the image what to do when it starts as container
