@@ -6,8 +6,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit Maver!!! <code>src/App.js</code> and save to reload.
+        <p class="iaura">
+          Corre siempre y (nginx) Testea solo una vez</p>
+          <p> Asi !!! <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
