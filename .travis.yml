@@ -1,7 +1,10 @@
+language: node_js
 sudo: required
 services:
   - docker
 
 before_install:
   - docker build - t gonzser/docker-react -f Dockerfile.dev .
-  
+
+script:
+  - docker run -e CI=true gonzser/docker-react npm run test
